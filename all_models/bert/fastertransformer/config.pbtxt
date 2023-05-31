@@ -47,6 +47,8 @@ output [
     dims: [ -1, -1 ]
   }
 ]
+# KIND_CPU is the only choice here as the backend needs to take full control of
+# how to distribute multiple model instances to all the visible GPUs.
 instance_group [
   {
     count: 1
