@@ -1,1 +1,1 @@
-Sample models and scripts copied from NVIDIA's Triton-related Github repos, for testing whether our custom FasterTransformer Triton container is working properly.
+Sample models and scripts copied from NVIDIA's Triton-related Github repos (mainly the [fastertransformer_backend](https://github.com/triton-inference-server/fastertransformer_backend) repo), for testing whether our custom FasterTransformer Triton container is working properly.
